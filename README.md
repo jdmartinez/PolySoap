@@ -21,7 +21,7 @@ Using C# `await`:
 ```csharp
 var client = SoapClient.Create("http://www.webservicex.net/globalweather.asmx");
 var response = await client.GetWeatherAsync(
-        req =>  
+    req =>  
         { 
             req.CountryName = "Spain",
             req.CityName = "Barcelona"
