@@ -1,8 +1,8 @@
-# SoapDish
+# PolySoap
 C# Generic SOAP client.
 
 
-### Using SoapDish
+### Using PolySoap
 
 ```csharp
 var client = SoapClient.Create("http://www.webservicex.net/globalweather.asmx");
