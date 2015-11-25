@@ -1,8 +1,8 @@
-# PolySoap
+# SoapKit
 C# Generic SOAP client.
 
 
-### Using PolySoap
+### Using SoapKit
 
 ```csharp
 var client = SoapClient.Create("http://www.webservicex.net/globalweather.asmx");
